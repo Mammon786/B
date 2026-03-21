@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Zubair | Profile</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <style>
+        /* --- STYLE SECTION (The Look) --- */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .profile-card {
+            background: #fff;
+            width: 90%;
+            max-width: 400px;
+            padding: 40px 20px;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .user-photo {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            border: 5px solid #007bff;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        h1 { font-size: 1.8rem; color: #333; margin: 10px 0; }
+        .tagline { color: #007bff; font-weight: 600; margin-bottom: 15px; }
+        .description { color: #666; font-size: 0.95rem; margin-bottom: 25px; line-height: 1.6; }
+
+        /* --- SOCIAL ICONS STYLE --- */
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            font-size: 24px;
+            color: #555;
+            transition: transform 0.3s, color 0.3s;
+        }
+
+        /* Hover colors for each specific icon */
+        .social-links a:hover { transform: scale(1.2); }
+        .fa-youtube:hover { color: #FF0000; }
+        .fa-tiktok:hover { color: #000000; }
+        .fa-whatsapp:hover { color: #25D366; }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        <img src="my-photo.jpg" alt="Muhammad Zubair" class="user-photo">
+        
+        <h1>Muhammad Zubair</h1>
+        <p class="tagline">Science Educator & AI Specialist</p>
+        
+        <div class="description">
+            <p>Dedicated educator with 40+ years of experience in Physics and Mathematics. Sharing the wonders of AI and science with the next generation.</p>
+        </div>
+
+        <div class="social-links">
+            <a href="#" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="#" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a>
+            <a href="#" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </div>
+
+</body>
+</html>
